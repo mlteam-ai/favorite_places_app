@@ -4,6 +4,8 @@ A sample Flutter project based on the Udemy course [Flutter & Dart - The Complet
 
 ![Here is the recording of the app](recording.gif)
 
+NOTE - The app is tested on iOS simulator only.
+
 ## What is in This Project?
 
 * Using camera to take images.
@@ -49,7 +51,13 @@ flutter pub add flutter_dotenv
 * [Adding your own native code](https://docs.flutter.dev/development/platform-integration/platform-channels)
 
 ## Additional Config
-You should create a `.env` file in the root directory of the project and add your Google Maps API key as follows:
+1. You should create a `.env` file in the root directory of the project and add your Google Maps API key as follows:
+
+```shell
+GOOGLE_MAPS_API_KEY=YOUR_API_KEY
+```
+
+2. For iOs, you should create a Environment.xcconfig file in the ios directory and add the following line:
 
 ```shell
 GOOGLE_MAPS_API_KEY=YOUR_API_KEY
