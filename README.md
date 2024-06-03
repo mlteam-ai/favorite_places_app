@@ -4,7 +4,7 @@ A sample Flutter project based on the Udemy course [Flutter & Dart - The Complet
 
 ![Here is the recording of the app](recording.gif)
 
-NOTE - The app is tested on iOS simulator only.
+NOTE - The app is configured for and tested on iOS only.
 
 ## What is in This Project?
 
